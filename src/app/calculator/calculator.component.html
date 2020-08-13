@@ -1,0 +1,22 @@
+<h2 class='heading-format'>Basic Calculator</h2>
+<div id="responsive">
+<div><input class='text-format' type="text" [value]="currentInput"></div>   
+<div class='btn-group'>
+<button class='btn-format' type="button" (click)="getOperator('+')">+</button>
+<button class='btn-format' type="button" (click)="getOperator('-')">-</button>
+<button class='btn-format' type="button" (click)="getOperator('*')">*</button>
+<button class='btn-format' type="button" (click)="getOperator('/')">/</button>
+<button class='btn-format' type="button" (click)="getInput('1')">1</button>
+<button class='btn-format' type="button" (click)="getInput('2')">2</button>
+<button class='btn-format' type="button" (click)="getInput('3')">3</button>
+<button class='btn-format' type="button" (click)="getInput('4')">4</button>
+<button class='btn-format' type="button" (click)="getInput('5')">5</button>
+<button class='btn-format' type="button" (click)="getInput('6')">6</button>
+<button class='btn-format' type="button" (click)="getInput('7')">7</button>
+<button class='btn-format' type="button" (click)="getInput('8')">8</button>
+<button class='btn-format' type="button" (click)="getInput('9')">9</button>
+<button class='btn-format' type="button" (click)="getInput('0')">0</button>
+<button class='btn-format' type="button" (click)="getOperator('=')">=</button>
+<button class='btn-format' type="button" (click)="clear()">C</button>
+</div>
+</div>
